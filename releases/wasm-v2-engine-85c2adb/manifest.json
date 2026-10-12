@@ -1,0 +1,54 @@
+{
+  "repository": "seankao31/enclosure-engine",
+  "tag": "wasm-v2-engine-85c2adb",
+  "engine": {
+    "build": "85c2adb",
+    "protocol": "0.3"
+  },
+  "assets": [
+    {
+      "file": "enclosure-engine.wasm",
+      "kind": "module",
+      "sha256": "4351a9608f46228efce022db9372e9c92e84af5c484dd454dc3f94cdcac525e7",
+      "bytes": 1348467,
+      "build": "85c2adb",
+      "protocol": "0.3"
+    },
+    {
+      "file": "b10c128-s66625408-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "67b51d6d25df4706d1c5c5e7039581e3d091d2c0189ac44f57a478fdb68273e7",
+      "bytes": 6499365,
+      "build": "85c2adb",
+      "protocol": "0.3",
+      "displayName": "HedgeFund 0.1 Lite",
+      "model": {
+        "name": "b10c128-s66625408-d13350730",
+        "trainingSamples": 66625408,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "b15c192-s66999040-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "4bfee7d55f4ae6f48a2833d464b722c723e5e2f04e4b44aa87fc6be0b2cbd214",
+      "bytes": 20597245,
+      "build": "85c2adb",
+      "protocol": "0.3",
+      "displayName": "HedgeFund 0.1",
+      "model": {
+        "name": "b15c192-s66999040-d13350730",
+        "trainingSamples": 66999040,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "NOTICES.txt",
+      "kind": "notices",
+      "sha256": "688cc6fa6262242e587de4ea351c44c1bf0aa9de59d3566cb4c055863e21ee4d",
+      "bytes": 10042,
+      "build": "85c2adb",
+      "protocol": "0.3"
+    }
+  ]
+}
