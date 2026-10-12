@@ -1,0 +1,100 @@
+{
+  "repository": "seankao31/enclosure-engine",
+  "tag": "wasm-v2-engine-06534ee",
+  "engine": {
+    "build": "06534ee",
+    "protocol": "0.3"
+  },
+  "assets": [
+    {
+      "file": "enclosure-engine.wasm",
+      "kind": "module",
+      "sha256": "ce906c6ebe9f31a67e21a868833c5a5035fac8699a8450c390149b46977b2a46",
+      "bytes": 1352456,
+      "build": "06534ee",
+      "protocol": "0.3"
+    },
+    {
+      "file": "b10c128-s66625408-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "67b51d6d25df4706d1c5c5e7039581e3d091d2c0189ac44f57a478fdb68273e7",
+      "bytes": 6499365,
+      "build": "06534ee",
+      "protocol": "0.3",
+      "displayName": "HedgeFund 0.1 Lite",
+      "model": {
+        "name": "b10c128-s66625408-d13350730",
+        "trainingSamples": 66625408,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "b15c192-s66999040-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "4bfee7d55f4ae6f48a2833d464b722c723e5e2f04e4b44aa87fc6be0b2cbd214",
+      "bytes": 20597245,
+      "build": "06534ee",
+      "protocol": "0.3",
+      "displayName": "HedgeFund 0.1",
+      "model": {
+        "name": "b15c192-s66999040-d13350730",
+        "trainingSamples": 66999040,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "enclosure-engine-gpu.wasm",
+      "kind": "gpu-module",
+      "sha256": "182815b3914fa599a300c455d748dcd6fb1f1a475cc0e38be71c81000a9f3322",
+      "bytes": 1147827,
+      "build": "06534ee",
+      "protocol": "0.3"
+    },
+    {
+      "file": "gpu_engine.mjs",
+      "kind": "gpu-library",
+      "sha256": "3bded46988608015b537d88fb2d23a3baeffe79b09474fd91798c790e2c1dc4b",
+      "bytes": 13615,
+      "build": "06534ee",
+      "protocol": "0.3"
+    },
+    {
+      "file": "b10c128-s66625408-d13350730.onnx",
+      "kind": "graph",
+      "sha256": "b82322a8c2bb4084ef9b4945a31729f5a4a8e674ab7b806e83a8065c8fb0082e",
+      "bytes": 12757054,
+      "build": "06534ee",
+      "protocol": "0.3",
+      "displayName": "HedgeFund 0.1 Lite",
+      "model": {
+        "name": "b10c128-s66625408-d13350730",
+        "trainingSamples": 66625408,
+        "dataRows": 13350730
+      },
+      "graphOf": "b10c128-s66625408-d13350730.model-float16.bin"
+    },
+    {
+      "file": "b15c192-s66999040-d13350730.onnx",
+      "kind": "graph",
+      "sha256": "e0fc242684b69e30daa9e91bb2b1085efe6d8e1b227ed4780de3a17dadc4d759",
+      "bytes": 40873431,
+      "build": "06534ee",
+      "protocol": "0.3",
+      "displayName": "HedgeFund 0.1",
+      "model": {
+        "name": "b15c192-s66999040-d13350730",
+        "trainingSamples": 66999040,
+        "dataRows": 13350730
+      },
+      "graphOf": "b15c192-s66999040-d13350730.model-float16.bin"
+    },
+    {
+      "file": "NOTICES.txt",
+      "kind": "notices",
+      "sha256": "688cc6fa6262242e587de4ea351c44c1bf0aa9de59d3566cb4c055863e21ee4d",
+      "bytes": 10042,
+      "build": "06534ee",
+      "protocol": "0.3"
+    }
+  ]
+}
