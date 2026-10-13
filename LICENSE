@@ -1,0 +1,36 @@
+Terms of the Enclosure engine and its networks
+==============================================
+
+Copyright (c) 2026 Yshan. All rights reserved.
+
+These terms cover the files of the repository github.com/seankao31/enclosure-engine and of its releases, except the
+works of others that NOTICES.txt lists:
+
+- the engine's own code in enclosure-engine.wasm and enclosure-engine-gpu.wasm: the changes to KataGo and the code
+  written for this engine
+- gpu_engine.mjs
+- the networks (the .model-float16.bin files) and their graphs (the .onnx files)
+- manifest.json and the other text of the repository and its releases
+
+
+Permissions
+-----------
+
+- Hedge School, the holder's Enclosure analysis site, serves and runs these files.
+- A visitor to Hedge School may run these files in the browser, as the site serves them.
+- No other right is granted. To copy, change, run, serve or distribute these files in any other way, you must have
+  written permission from the holder. To ask, open an issue in the repository.
+
+
+Works of others
+---------------
+
+The two modules also contain works of others. NOTICES.txt lists them with their licences. KataGo's code stays under
+the MIT licence, and each other work stays under its own licence. These terms do not limit any of those licences.
+
+
+No warranty
+-----------
+
+The files are provided "as is", without warranty of any kind, express or implied. The holder is not liable for any
+claim, damage or other liability that comes from the files or from their use.
