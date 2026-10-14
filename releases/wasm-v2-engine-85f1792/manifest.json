@@ -1,0 +1,159 @@
+{
+  "repository": "seankao31/enclosure-engine",
+  "tag": "wasm-v2-engine-85f1792",
+  "engine": {
+    "build": "85f1792",
+    "protocol": "0.6.1",
+    "search": "fdfe5ad"
+  },
+  "assets": [
+    {
+      "file": "enclosure-engine.wasm",
+      "kind": "module",
+      "sha256": "800f0bbfc3d3bfd39872961dccea9c8fe2600ad6dea20fca6d7b8b76682638fd",
+      "bytes": 1360311,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "b10c128-s66625408-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "67b51d6d25df4706d1c5c5e7039581e3d091d2c0189ac44f57a478fdb68273e7",
+      "bytes": 6499365,
+      "build": "85f1792",
+      "protocol": "0.6.1",
+      "displayName": "HedgeFund 0.1 Lite",
+      "model": {
+        "name": "b10c128-s66625408-d13350730",
+        "trainingSamples": 66625408,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "b15c192-s66999040-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "4bfee7d55f4ae6f48a2833d464b722c723e5e2f04e4b44aa87fc6be0b2cbd214",
+      "bytes": 20597245,
+      "build": "85f1792",
+      "protocol": "0.6.1",
+      "displayName": "HedgeFund 0.1",
+      "model": {
+        "name": "b15c192-s66999040-d13350730",
+        "trainingSamples": 66999040,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "enclosure-engine-gpu.wasm",
+      "kind": "gpu-module",
+      "sha256": "94a4b04d5083be173ce9abd12c0725ee5e66b6f5b97daecd6d1ef30f16e221c9",
+      "bytes": 1154196,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "gpu_engine.mjs",
+      "kind": "gpu-library",
+      "sha256": "9b21f0876f66f7f620f4096aa8b0ca5cbbd2a6665179ab94eae67589e7add4a2",
+      "bytes": 16748,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "b10c128-s66625408-d13350730.onnx",
+      "kind": "graph",
+      "sha256": "70585e2ec5b751d05cd42b1108539acdf894fcf1b0400fd2a6c09f175d065408",
+      "bytes": 6409947,
+      "build": "85f1792",
+      "protocol": "0.6.1",
+      "displayName": "HedgeFund 0.1 Lite",
+      "model": {
+        "name": "b10c128-s66625408-d13350730",
+        "trainingSamples": 66625408,
+        "dataRows": 13350730
+      },
+      "graphOf": "b10c128-s66625408-d13350730.model-float16.bin"
+    },
+    {
+      "file": "b15c192-s66999040-d13350730.onnx",
+      "kind": "graph",
+      "sha256": "5d4c8fb41e95feded3bfe934a570ee2787ec7ccf6d55902c0166504b3ba69eeb",
+      "bytes": 20477916,
+      "build": "85f1792",
+      "protocol": "0.6.1",
+      "displayName": "HedgeFund 0.1",
+      "model": {
+        "name": "b15c192-s66999040-d13350730",
+        "trainingSamples": 66999040,
+        "dataRows": 13350730
+      },
+      "graphOf": "b15c192-s66999040-d13350730.model-float16.bin"
+    },
+    {
+      "file": "enclosure-bot.wasm",
+      "kind": "practice-module",
+      "sha256": "69bd293af4baad4a77ce24bc2cd238c3e1ffb34fb460d852d33f92cfc1ee1d3c",
+      "bytes": 1599485,
+      "build": "85f1792",
+      "protocol": "0.6.1",
+      "interface": "0.1.1"
+    },
+    {
+      "file": "enclosure-bot-batched.wasm",
+      "kind": "practice-threaded-module",
+      "sha256": "ba46d584aaaf3df86ee998154ad9751926224bbd5d8cc6e99efcfeaff32779df",
+      "bytes": 1409956,
+      "build": "85f1792",
+      "protocol": "0.6.1",
+      "interface": "0.1.1"
+    },
+    {
+      "file": "enclosure-eval.wasm",
+      "kind": "practice-evaluator",
+      "sha256": "b80fd3d2eb2b5b995677e296d90eaaff7bf62176e6bb1688d6585d8d04a641c2",
+      "bytes": 587301,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "practice_bot.mjs",
+      "kind": "practice-library",
+      "sha256": "21dfedfdfd5af53f4bbc982f57f204a13a4cbfe580c9b8631464ce0d3250398c",
+      "bytes": 7275,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "cpu_evaluator.mjs",
+      "kind": "cpu-evaluator-library",
+      "sha256": "ec36d991b4a3a70dc5217ed2682561632c4c6f6d5b41b19088cad2a138ed831e",
+      "bytes": 3172,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "cpu_eval_worker.mjs",
+      "kind": "cpu-evaluator-library",
+      "sha256": "1c8d8df3d8507dce58c4efca95816ba291f0c4d60da56035d222313417423564",
+      "bytes": 2511,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "NOTICES.txt",
+      "kind": "notices",
+      "sha256": "6e25445b8a812a0335cc306aede2f1f43f74bff51bf57492b88dee8ba8792f7b",
+      "bytes": 10859,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    },
+    {
+      "file": "LICENSE.txt",
+      "kind": "terms",
+      "sha256": "78e54748378e7e2cf422c1567d0f361dea7fb7bb74e8b65e801ede4ec0856acc",
+      "bytes": 1487,
+      "build": "85f1792",
+      "protocol": "0.6.1"
+    }
+  ]
+}
