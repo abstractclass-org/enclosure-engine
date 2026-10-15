@@ -3,8 +3,8 @@ Terms of the Enclosure engine and its networks
 
 Copyright (c) 2026 Yshan. All rights reserved.
 
-These terms cover the files of the repository github.com/seankao31/enclosure-engine and of its releases, except the
-works of others that NOTICES.txt lists:
+These terms cover the files of the repository github.com/abstractclass-org/enclosure-engine and of its releases,
+except the works of others that NOTICES.txt lists:
 
 - the engine's own code in enclosure-engine.wasm and enclosure-engine-gpu.wasm: the changes to KataGo and the code
   written for this engine
