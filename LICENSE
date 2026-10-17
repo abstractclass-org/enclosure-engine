@@ -22,6 +22,18 @@ Permissions
   written permission from the holder. To ask, open an issue in the repository.
 
 
+The engine's outputs
+--------------------
+
+The engine's outputs are what these files produce: analyses, moves, scores, win chances, policies, ownership, and the
+review files that hold them.
+
+- You may keep, share and publish the outputs as analysis, for example the review of a game. Players and the sites
+  that the holder works with may do so too.
+- You must not use the outputs to train, distil or tune another model, network or engine, unless you have written
+  permission from the holder. To ask, open an issue in the repository.
+
+
 Works of others
 ---------------
 
