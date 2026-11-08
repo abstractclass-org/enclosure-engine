@@ -6,11 +6,11 @@ Copyright (c) 2026 Yshan. All rights reserved.
 These terms cover the files of the repository github.com/abstractclass-org/enclosure-engine and of its releases,
 except the works of others that NOTICES.txt lists:
 
-- the engine's own code in enclosure-engine.wasm and enclosure-engine-gpu.wasm: the changes to KataGo and the code
-  written for this engine
-- gpu_engine.mjs
+- the engine's own code in enclosure-engine.wasm, enclosure-engine-gpu.wasm, enclosure-bot.wasm,
+  enclosure-bot-batched.wasm and enclosure-eval.wasm: the changes to KataGo and the code written for this engine
+- gpu_engine.mjs, practice_bot.mjs, cpu_evaluator.mjs and cpu_eval_worker.mjs
 - the networks (the .model-float16.bin files) and their graphs (the .onnx files)
-- manifest.json and the other text of the repository and its releases
+- settings.cfg, manifest.json and the other text of the repository and its releases
 
 
 Permissions
@@ -37,7 +37,7 @@ review files that hold them.
 Works of others
 ---------------
 
-The two modules also contain works of others. NOTICES.txt lists them with their licences. KataGo's code stays under
+The modules also contain works of others. NOTICES.txt lists them with their licences. KataGo's code stays under
 the MIT licence, and each other work stays under its own licence. These terms do not limit any of those licences.
 
 
