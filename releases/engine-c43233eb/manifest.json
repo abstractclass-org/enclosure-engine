@@ -1,0 +1,245 @@
+{
+  "game": "enclosure",
+  "repository": "abstractclass-org/enclosure-engine",
+  "tag": "engine-c43233eb",
+  "engine": {
+    "name": "HedgeFund",
+    "build": "c43233eb",
+    "protocol": "0.6.2",
+    "search": "fdfe5ad",
+    "settings": {
+      "logDir": "analysis_logs",
+      "reportAnalysisWinratesAs": "BLACK",
+      "maxVisits": "500",
+      "numAnalysisThreads": "1",
+      "numSearchThreadsPerAnalysisThread": "1",
+      "nnMaxBatchSize": "1",
+      "nnCacheSizePowerOfTwo": "10",
+      "nnMutexPoolSizePowerOfTwo": "17",
+      "nnRandomize": "true",
+      "staticScoreUtilityFactor": "0.10",
+      "dynamicScoreUtilityFactor": "0.30",
+      "numEigenThreadsPerModel": "1"
+    },
+    "sizes": {
+      "board": 19,
+      "policyChannels": 48
+    }
+  },
+  "assets": [
+    {
+      "file": "enclosure-engine.wasm",
+      "kind": "module",
+      "sha256": "4d2f7b769537a089ce5fbe5bb14d0b06f4a0ce57c15b41dff713af70c867fb5c",
+      "bytes": 1398029,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "b10c128-s89066368-d17827487.model-float16.bin",
+      "kind": "model",
+      "sha256": "000126bf7f28eeb05280e16aafa7055c6b9e9f4dc38739b67406ce0da3d2e950",
+      "bytes": 6499877,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.2 Lite",
+      "model": {
+        "name": "b10c128-s89066368-d17827487",
+        "trainingSamples": 89066368,
+        "dataRows": 17827487
+      }
+    },
+    {
+      "file": "b15c192-s90436608-d18027147.model-float16.bin",
+      "kind": "model",
+      "sha256": "6406751ba943a361e53ea442641bd744fc23143ad3134f7d545d259491fd7f96",
+      "bytes": 20598013,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.2",
+      "model": {
+        "name": "b15c192-s90436608-d18027147",
+        "trainingSamples": 90436608,
+        "dataRows": 18027147
+      }
+    },
+    {
+      "file": "b10c128-s66625408-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "67b51d6d25df4706d1c5c5e7039581e3d091d2c0189ac44f57a478fdb68273e7",
+      "bytes": 6499365,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.1 Lite",
+      "model": {
+        "name": "b10c128-s66625408-d13350730",
+        "trainingSamples": 66625408,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "b15c192-s66999040-d13350730.model-float16.bin",
+      "kind": "model",
+      "sha256": "4bfee7d55f4ae6f48a2833d464b722c723e5e2f04e4b44aa87fc6be0b2cbd214",
+      "bytes": 20597245,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.1",
+      "model": {
+        "name": "b15c192-s66999040-d13350730",
+        "trainingSamples": 66999040,
+        "dataRows": 13350730
+      }
+    },
+    {
+      "file": "settings.cfg",
+      "kind": "settings",
+      "sha256": "a5c93fc0aa6219f3b7a9d7a542ad0ba63e02f978f705b63072f1402627f34000",
+      "bytes": 950,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "enclosure-engine-gpu.wasm",
+      "kind": "gpu-module",
+      "sha256": "e20e0785dbf062a26f000f345b694882fb045e67031979a88a95b72b256f775c",
+      "bytes": 1174851,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "b10c128-s89066368-d17827487.onnx",
+      "kind": "graph",
+      "sha256": "9c2e213dc64e05ffe3154800c3fd3b8c053814d3f4c22f8a454d6bea20df0e4f",
+      "bytes": 6410459,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.2 Lite",
+      "model": {
+        "name": "b10c128-s89066368-d17827487",
+        "trainingSamples": 89066368,
+        "dataRows": 17827487
+      },
+      "graphOf": "b10c128-s89066368-d17827487.model-float16.bin"
+    },
+    {
+      "file": "b15c192-s90436608-d18027147.onnx",
+      "kind": "graph",
+      "sha256": "d07993d4a3040064b93c88b8c53baa5a08858551d3e4fe1ca2c49f5326daf529",
+      "bytes": 20478684,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.2",
+      "model": {
+        "name": "b15c192-s90436608-d18027147",
+        "trainingSamples": 90436608,
+        "dataRows": 18027147
+      },
+      "graphOf": "b15c192-s90436608-d18027147.model-float16.bin"
+    },
+    {
+      "file": "b10c128-s66625408-d13350730.onnx",
+      "kind": "graph",
+      "sha256": "70585e2ec5b751d05cd42b1108539acdf894fcf1b0400fd2a6c09f175d065408",
+      "bytes": 6409947,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.1 Lite",
+      "model": {
+        "name": "b10c128-s66625408-d13350730",
+        "trainingSamples": 66625408,
+        "dataRows": 13350730
+      },
+      "graphOf": "b10c128-s66625408-d13350730.model-float16.bin"
+    },
+    {
+      "file": "b15c192-s66999040-d13350730.onnx",
+      "kind": "graph",
+      "sha256": "5d4c8fb41e95feded3bfe934a570ee2787ec7ccf6d55902c0166504b3ba69eeb",
+      "bytes": 20477916,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "displayName": "HedgeFund 0.1",
+      "model": {
+        "name": "b15c192-s66999040-d13350730",
+        "trainingSamples": 66999040,
+        "dataRows": 13350730
+      },
+      "graphOf": "b15c192-s66999040-d13350730.model-float16.bin"
+    },
+    {
+      "file": "enclosure-bot.wasm",
+      "kind": "practice-module",
+      "sha256": "b23cbfa8a468d964f97db05fd53bd0466eb04e8295dcb705c4b1a5ed15893c48",
+      "bytes": 1692340,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "interface": "0.1.1"
+    },
+    {
+      "file": "enclosure-bot-batched.wasm",
+      "kind": "practice-threaded-module",
+      "sha256": "5aa36fb2489365df3d7cef375a739d271cdbd8290d0648313e69c9d904ab9d3d",
+      "bytes": 1485524,
+      "build": "c43233eb",
+      "protocol": "0.6.2",
+      "interface": "0.1.1"
+    },
+    {
+      "file": "enclosure-eval.wasm",
+      "kind": "practice-evaluator",
+      "sha256": "8a7a3a4ea1a48bd622b62eef8b206248e4b6c7629dbd3b3cabc1d5b78806f217",
+      "bytes": 606399,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "practice_bot.mjs",
+      "kind": "practice-library",
+      "sha256": "1564fa41eabd315fe0bcdd6429144016ea0489307bf3b0356389532d881b1194",
+      "bytes": 7406,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "cpu_evaluator.mjs",
+      "kind": "cpu-evaluator-library",
+      "sha256": "2c76b1869faf93e5eca13e1e4d6a137e42c9bc24ea03c76ecec442cb4f88b066",
+      "bytes": 3921,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "cpu_eval_worker.mjs",
+      "kind": "cpu-evaluator-library",
+      "sha256": "f6c50a3eb0526f0bcee6dc6f96bb4242a66fdb37053b71e8fbbe35031a8e8d35",
+      "bytes": 2838,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "gpu_engine.mjs",
+      "kind": "gpu-library",
+      "sha256": "3127e1554a28b0f18427dbb85f605b0fe66d35303355706319d7e073d30e81d5",
+      "bytes": 18527,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "NOTICES.txt",
+      "kind": "notices",
+      "sha256": "6e25445b8a812a0335cc306aede2f1f43f74bff51bf57492b88dee8ba8792f7b",
+      "bytes": 10859,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    },
+    {
+      "file": "LICENSE.txt",
+      "kind": "terms",
+      "sha256": "01cdf5508a1a4cf2f59655d70c68d43308af429146a5fca4b0c8fae69121046e",
+      "bytes": 2172,
+      "build": "c43233eb",
+      "protocol": "0.6.2"
+    }
+  ]
+}
